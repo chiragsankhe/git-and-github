@@ -94,6 +94,86 @@ this Chat Sheet feature that most important and commonly use Git Commands for ea
 <h4> git log </h4>
 <p> show all commit in the current history </p>
 
+<br>
+<hr>
+<h2> INSPECT AND COMPARE </h2>
+<P> Examining log diff and objects information </P>
+
+<h4> git log </h4>
+<p> show the commit history for currently active branch.  </p>
+
+<h4> git log  brancheB.. branchA </h4>
+<p> show the commit and branchA that are nor in branchB  </p>
+
+<h4> git log --follow  [file]</h4>
+<p>  show the diff of what is in branchA that is not in brachB</p>
+
+<h4> git show [SHA]</h4>
+<p>  show any object in git in human relable formate</p>
+
+<br>
+<hr>
+<h2> TRACKING PATH CHANGES </h2>
+<P> versioning file removeand path changes </P>
+
+<h4> git rm [file] </h4>
+<p> delete the file from project and stage the removal of commit</p>
+
+<h4> git mv [existing -path ] [new - path] </h4>
+<p> change an existing path and stage the move</p>
+
+<h4> git log --stat -m </h4>
+<p> show all commit logs with indication of any paths that moved</p>
+
+<bt>
+<hr>
+<h2> SHARE AND UPDATE</H2>
+<P> retrieving update from another repository and updating local repos </P>
+
+<h4> git remote add [alias ] [ url] </h4>
+<p> add git URL as alias </p>
+
+<h4> git fetch [alias ] </h4>
+<p> fetch down the all the branches from that git remote </p>
+
+<h4> git merge [alias ] /[branch]</h4>
+<p> merge the remote branch into your current branch to bring it up to date </p>
+<h4> git push [alias ] /[branch]</h4>
+<p> transmit local branch commit to the remote repository branch </p>
+
+<h4> git pull </h4>
+<p> fetach and merge any commit from the tracking remote branch  </p>
+
+<br>
+<hr>
+<h2> REWRITE HISTPRY</h2>
+<P> Rewrite branches updating commits and clearing history </P>
+<h4> git rebase [branch ] </h4>
+<p> apply any commits of current branch ahead of specified one  </p>
+
+<h4> git rebase --herd [commit ] </h4>
+<p> clear staging area , rewrite working tree from specified commit  </p>
+
+<br>
+<h2> temporary commits</h2>
+<p> temporarily store modified , tracke  files in order to change brances </p>
+
+<h4> git stash  </h4>
+<p> save modified and staged changes  </p>
+
+<h4> git stash  list</h4>
+<p> list stack-order of stashed file changes </p>
+
+<h4> git stash pop </h4>
+<p>  write working from top of stash stack </p>
+
+<h4> git stash drop </h4>
+<p> discard the changes from top of stash stack </p>
+
+
+
+
+
 
 
 
