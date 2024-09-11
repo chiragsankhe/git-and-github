@@ -76,7 +76,29 @@ this Chat Sheet feature that most important and commonly use Git Commands for ea
  <p> diff of what is stage bit not yet committed </p>
 
   <h4> git commit -m "[descriptive message]"</h4>
- <p> show modified fiels in working dirctory staged your next commit. </p>
+ <p> show modified fiels in working dirctory staged your next commit snapshot. </p>
+
+ <br>
+ <hr>
+ <h2> BRANCH AND MERGE </H2>
+ <P>  isolating work in branches changing context and integrating changes </P>
+
+<h4> git branch </h4>
+<p> list your branches a* will appear next to the current active branch </p>
+<h4> git branch [branch-name] </h4>
+<p> create a new branch at the current commit</p>
+<h4> git cheakout  </h4>
+<p> switch your another branch and check it out into your working directory</p>
+<h4> git merge [branch] </h4>
+<p> merge the spacific branch history into the current one </p>
+<h4> git log </h4>
+<p> show all commit in the current history </p>
+
+
+
+
+
+
 
 
 
