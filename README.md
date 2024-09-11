@@ -1,5 +1,5 @@
 # git-and-github
-LEARNING GIT AND GITHUB 
+<h1>LEARNING GIT AND GITHUB </h1>
 <br>
 git is the free and open source distributed version control system thats respnsible for everything GitHub
 related that happen locally on your computer.
