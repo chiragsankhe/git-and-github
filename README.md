@@ -9,8 +9,8 @@ this Chat Sheet feature that most important and commonly use Git Commands for ea
 <br>
 <h2>GIT
 <p> version control system is tool that help to track code  </P>
-<p> - popular 
-<p> - free and open source 
-<p> - fast and scalable
+ - popular 
+ - free and open source 
+ - fast and scalable
 
 
