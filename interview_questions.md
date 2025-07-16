@@ -33,7 +33,7 @@ Answer:
 ### 7. How do you create and switch to a new branch?
 ```
 git checkout -b feature-name
-``
+```
 ### 8. What is a pull request (PR)?
 Answer:
 + A pull request is a GitHub feature where you request to merge changes from one branch `(e.g., feature)` into another `(e.g., main)`.
@@ -86,7 +86,7 @@ Answer:
 ```
 git pull origin main --rebase
 git push origin main
-``
+```
 ## 📌 Bonus
 ### 16. What is .gitignore?
 Answer:
@@ -109,7 +109,7 @@ Answer:
 ```
 git log           # Full history
 git log --oneline # Short summary
-``
+```
 20. How do you delete a Git branch?
 ```
 git branch -d branch-name            # Local
